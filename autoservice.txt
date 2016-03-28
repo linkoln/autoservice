@@ -11,7 +11,7 @@ rem set /p text= waiting
 sc start vds
 sc start VMAuthdService
 sc start VMnetDHCP
-sc start VMware NAT Service
+sc start "VMware NAT Service"
 sc start VMUSBArbService
 sc start VMwareHostd
 set /p text= 启动成功
